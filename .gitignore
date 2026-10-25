@@ -37,3 +37,6 @@ Thumbs.db
 .cache/
 .temp/
 *.tsbuildinfo
+
+# 本地工具数据
+.workbuddy/

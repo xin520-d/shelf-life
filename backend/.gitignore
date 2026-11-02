@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Runtime data / local DB
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.part
+.env
+
+# Model weights (large files, fetched at setup via scripts/download_clip.py)
+models/*
+!models/.gitkeep
+
+# User uploads (runtime)
+uploads/*
+!uploads/.gitkeep
+
+# Runtime JSON outputs
+*_done.json
+_verify.json
+items_active.json
+
+# local data db
+data/*.db

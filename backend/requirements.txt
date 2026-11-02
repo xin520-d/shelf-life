@@ -1,0 +1,12 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+sqlalchemy>=2.0
+pillow>=10.0
+openpyxl>=3.1
+numpy>=1.26
+onnxruntime>=1.18
+rapidocr-onnxruntime>=1.4
+torch>=2.6 --index-url https://download.pytorch.org/whl/cpu
+ultralytics>=8.3
+pi-heif>=0.8          # YOLO 推理时按需安装会拖慢首次识别，预装固定版本
